@@ -4,7 +4,9 @@ MAINTAINER sergione
 
 RUN \
  apk update && \
- apk add iperf3
+ apk add iperf3  && \
+ apk add nmap  && \
+ apk add socat
  
 USER 1001
 
